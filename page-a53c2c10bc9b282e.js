@@ -51,7 +51,7 @@
                           "bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded",
                         style: { fontSize: 20 * e + 16 },
                         onClick: () => l(!0),
-                        children: "Seviyorum",
+                        children: "Ben de seni seviyorum",
                       }),
                       (0, r.jsx)("button", {
                         onClick: () => {
