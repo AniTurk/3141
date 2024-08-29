@@ -29,7 +29,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -37,7 +37,11 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Specify the directory to deploy
-          path: './public' # or the directory where your static files are located
+          path: './public' # This should be the directory containing your static files
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          # Specify the branch and directory to deploy to GitHub Pages
+          branch: gh-pages
+          directory: public
