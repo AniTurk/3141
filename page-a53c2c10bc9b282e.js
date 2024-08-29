@@ -40,7 +40,7 @@
                   }),
                   (0, r.jsx)("h1", {
                     className: "text-4xl my-4 text-center",
-                    children: "14 Şubat'ta benimle olur musun?",
+                    children: "Seni seviyorum Rin",
                   }),
                   (0, r.jsxs)("div", {
                     className:
@@ -51,7 +51,7 @@
                           "bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded",
                         style: { fontSize: 20 * e + 16 },
                         onClick: () => l(!0),
-                        children: "Evet",
+                        children: "Seviyorum",
                       }),
                       (0, r.jsx)("button", {
                         onClick: () => {
@@ -61,21 +61,21 @@
                           " bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded",
                         children:
                           0 === e
-                            ? "Hayır"
+                            ? "Ben sevmiyorum"
                             : (() => {
                                 let t = [
-                                  "Hayır",
+                                  "Ben sevmiyorum",
                                   "Emin misin?",
                                   "Gerçekten emin misin?",
                                   "CİDDEN EMİN MİSİN???",
                                   "LÜTFENNNNNNNN!",
                                   "Sadece biraz düşün",
-                                  "Hayır dersen çok üzülürüm :(((",
+                                  "Sevmiyorum dersen çok üzülürüm :(((",
                                   "Çok çok çok çok üzülürüm",
                                   "Ağlamaktan gözlerim akar",
-                                  "Vücudumdaki tüm suyu ağlayıp atom olurum",
+                                  "Vücudumdaki tüm suyu ağlayıp çöl olurum",
                                   "Anladım, daha fazla sormayacağım...",
-                                  "ŞAKA YAPTIM. LÜTFEN EVET DE",
+                                  "ŞAKA YAPTIM. LÜTFEN SEVİYORUM DE",
                                   "Çok çok çok çok canımı yakar",
                                   "Kalbimi kırıyorsun ;(",
                                 ];
