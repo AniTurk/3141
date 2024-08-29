@@ -37,7 +37,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Specify the directory to deploy
-          path: './public' # This should be the directory containing your static files
+          path: './public' # Use relative path to the directory containing your static files
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

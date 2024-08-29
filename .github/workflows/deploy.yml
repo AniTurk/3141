@@ -1,12 +1,8 @@
 name: Deploy static content to Pages
 
 on:
-  # Runs on pushes targeting the default branch
   push:
-    branches:
-      - main
-
-  # Allows you to run this workflow manually from the Actions tab
+    branches: ["main"]
   workflow_dispatch:
 
 permissions:
@@ -32,10 +28,10 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './build' # Statik dosyalarınızın bulunduğu dizin
+          path: './public' # Proje kök dizinine göre relative path
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
         with:
-          branch: gh-pages # GitHub Pages için kullanılacak dal
-          directory: build # Statik dosyaların bulunduğu dizin
+          branch: gh-pages
+          directory: public
