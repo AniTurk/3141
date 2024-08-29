@@ -1,0 +1,16 @@
+{
+  "name": "my-static-site",
+  "version": "1.0.0",
+  "description": "A simple static site",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx http-server ./public",
+    "build": "echo 'No build step needed for static site'"
+  },
+  "dependencies": {
+    "http-server": "^14.0.0"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}
